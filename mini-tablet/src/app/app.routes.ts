@@ -6,11 +6,12 @@ import { UserComponent } from './user/user.component';
 export const routes: Routes = [
     {
         path: '',
-        title: 'App Home Page',
+        title: 'MiniTab | Home',
         component: HomeComponent,
     },
     {
         path: 'user',
+        title: 'MiniTab | User Login',
         component: UserComponent,
     },
 ];
