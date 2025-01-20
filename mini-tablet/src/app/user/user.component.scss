@@ -1,0 +1,23 @@
+// .card-container {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     height: 100vh;
+// }
+
+// .login-card {
+//     padding: 20px;
+//     border-radius: 8px;
+// }
+
+mat-card {
+    border: none
+}
+
+mat-card-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
