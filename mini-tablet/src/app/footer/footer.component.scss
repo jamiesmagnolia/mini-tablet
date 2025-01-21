@@ -11,42 +11,42 @@
   }
   
   /* Left Section */
-  .taskbar-left-container {
-    display: flex; /* Flexbox for buttons */
-    gap: 10px; /* Space between buttons */
-  }
+  // .taskbar-left-container {
+  //   display: flex; /* Flexbox for buttons */
+  //   gap: 10px; /* Space between buttons */
+  // }
   
-  .taskbar-left-container button {
-    background-color: #444;
-    color: white;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-    border-radius: 4px;
-    transition: background-color 0.3s;
-  }
+  // .taskbar-left-container button {
+  //   background-color: #444;
+  //   color: white;
+  //   border: none;
+  //   padding: 5px 10px;
+  //   cursor: pointer;
+  //   border-radius: 4px;
+  //   transition: background-color 0.3s;
+  // }
   
-  .taskbar-left-container button:hover {
-    background-color: #555;
-  }
+  // .taskbar-left-container button:hover {
+  //   background-color: #555;
+  // }
   
   /* Center Section */
-  .taskbar-center-container {
-    display: flex; /* Flexbox for center icons */
-    gap: 15px; /* Space between icons */
-    justify-content: center; /* Center the content */
-  }
+  // .taskbar-center-container {
+  //   display: flex; /* Flexbox for center icons */
+  //   gap: 15px; /* Space between icons */
+  //   justify-content: center; /* Center the content */
+  // }
   
-  .taskbar-center-container .taskbar-icon {
-    width: 30px;
-    height: 30px;
-    cursor: pointer;
-    transition: transform 0.2s;
-  }
+  // .taskbar-center-container .taskbar-icon {
+  //   width: 30px;
+  //   height: 30px;
+  //   cursor: pointer;
+  //   transition: transform 0.2s;
+  // }
   
-  .taskbar-center-container .taskbar-icon:hover {
-    transform: scale(1.2); /* Slight zoom on hover */
-  }
+  // .taskbar-center-container .taskbar-icon:hover {
+  //   transform: scale(1.2); /* Slight zoom on hover */
+  // }
   
   /* Right Section */
   .taskbar-right-container {
@@ -55,11 +55,18 @@
     align-items: flex-end; /* Align date/time to the right */
     padding: 30px;
   }
+
+  // .battery-status-container p {
+  //   margin: 0;
+  //   font-size: 12px; /* Adjust font size */
+  //   line-height: 1.15;
+  //   text-align: right;
+  // }
   
   .date-time-container p {
     margin: 0;
     font-size: 12px; /* Adjust font size */
-    line-height: 1.2;
+    line-height: 1.15;
     text-align: right;
   }
   

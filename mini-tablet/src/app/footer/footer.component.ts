@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { DatePipe } from '@angular/common';
+import { BatteryStatusComponent } from "../battery-status/battery-status.component";
 
 @Component({
   selector: 'app-footer',
-  imports: [DatePipe],
+  imports: [DatePipe, BatteryStatusComponent],
   templateUrl: './footer.component.html',
   styleUrl: './footer.component.scss'
 })

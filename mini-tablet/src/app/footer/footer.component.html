@@ -7,8 +7,12 @@
     <!-- Center section container (apps, logged user, etc.) -->
     <div class="taskbar-center-container"></div>
 
-    <!-- Right section container (time, date, etc.) -->
+    <!-- Right section container (battery, time, date, etc.) -->
     <div class="taskbar-right-container">
+
+        <div class="battery-status-container">
+            <app-battery-status></app-battery-status>
+        </div>
 
         <div class="date-time-container">
             <p>{{currentDateTime | date: 'EEEE, d MMMM y'}}</p>

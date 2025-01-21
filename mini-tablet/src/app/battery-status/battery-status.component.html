@@ -1,0 +1,9 @@
+<!-- <p>battery-status works!</p> -->
+<div>
+    @if (batteryLevel !== null) {
+        <p>Battery status: {{batteryLevel}}% {{isCharging ? '(charging)' : ''}}</p>
+    }
+    @else {
+        <p>Warning: Battery information is missing!</p>
+    }
+</div>

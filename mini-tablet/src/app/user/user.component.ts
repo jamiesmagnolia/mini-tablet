@@ -5,14 +5,17 @@ import {MatButtonModule} from '@angular/material/button';
 
 @Component({
   selector: 'app-user',
-  imports: [FormsModule, MatCardModule, MatButtonModule],
+  imports: [
+    FormsModule, 
+    MatCardModule, 
+    MatButtonModule],
   templateUrl: './user.component.html',
   styleUrl: './user.component.scss'
 })
 export class UserComponent {
 
-  userName = '';
-  passWord = '';
+  userName: string = '';
+  passWord: string = '';
 
   // favoriteFramework = '';
 
