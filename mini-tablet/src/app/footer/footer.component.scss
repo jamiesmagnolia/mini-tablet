@@ -1,0 +1,65 @@
+.taskbar-container {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px; /* Taskbar height */
+    background-color: gray; /* Temporary background color */
+    display: flex; /* Enable flexbox */
+    justify-content: space-between; /* Distribute sections: left, center, right */
+    align-items: center; /* Vertically align content */
+    padding: 0 15px; /* Add padding on left and right */
+  }
+  
+  /* Left Section */
+  .taskbar-left-container {
+    display: flex; /* Flexbox for buttons */
+    gap: 10px; /* Space between buttons */
+  }
+  
+  .taskbar-left-container button {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+  
+  .taskbar-left-container button:hover {
+    background-color: #555;
+  }
+  
+  /* Center Section */
+  .taskbar-center-container {
+    display: flex; /* Flexbox for center icons */
+    gap: 15px; /* Space between icons */
+    justify-content: center; /* Center the content */
+  }
+  
+  .taskbar-center-container .taskbar-icon {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .taskbar-center-container .taskbar-icon:hover {
+    transform: scale(1.2); /* Slight zoom on hover */
+  }
+  
+  /* Right Section */
+  .taskbar-right-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Align date/time to the right */
+    padding: 30px;
+  }
+  
+  .date-time-container p {
+    margin: 0;
+    font-size: 12px; /* Adjust font size */
+    line-height: 1.2;
+    text-align: right;
+  }
+  

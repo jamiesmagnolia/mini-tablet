@@ -1,0 +1,22 @@
+<!-- Main container -->
+<div class="taskbar-container">
+
+    <!-- Left section container (off buttons) -->
+    <div class="taskbar-left-container"></div>
+
+    <!-- Center section container (apps, logged user, etc.) -->
+    <div class="taskbar-center-container"></div>
+
+    <!-- Right section container (time, date, etc.) -->
+    <div class="taskbar-right-container">
+
+        <div class="date-time-container">
+            <p>{{currentDateTime | date: 'EEEE, d MMMM y'}}</p>
+            <p>{{currentDateTime | date: 'hh:mm:ss zzzz'}}</p>
+        </div>
+
+    </div>
+
+</div>
+
+
