@@ -10,7 +10,7 @@ export const routes: Routes = [
         component: HomeComponent,
     },
     {
-        path: 'user',
+        path: 'user-login',
         title: 'MiniTab | User Login',
         component: UserComponent,
     },
